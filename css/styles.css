@@ -142,8 +142,12 @@ body {
 /*-----HERO-----*/
 .hero {
     background-color: var(--secondary-bg-color);
-}
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 280px;
+  }
 .hero-title {
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -151,6 +155,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-title);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    margin: 0 auto;
 
 }
 .hero-btn {
@@ -159,12 +167,24 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    width: 200px;
+    height: 50px;
     /* identical to box height, or 187% */
     letter-spacing: 0.06em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    justify-content: center;
+    margin: 0 auto;
 }
 /*-----HERO-----*/
 
 /*-----FEATURES-----*/
+.features {
+
+}
 .feature-title {
     font-weight: 700;
     font-size: 14px;
@@ -172,6 +192,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    
 }
 
 .feature-text {
@@ -181,16 +202,39 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+
+.feature-list {
+   display: flex;
+   padding-top: 94px;
+   margin-left: -30px;
+}
+.feature-item{
+    flex-basis: calc(100% / 4 -  30px);
+    margin-left: 30px;
+}
 /*-----FEATURES END-----*/
 
 /*-----WORK-----*/
 .work-title {
+    /*display: flex;*/
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin: 0 auto;
 
+}
+.work-list {
+    display: flex;
+    margin-left: -30px;
+}
+.work-item {
+     flex-basis: calc(100% / 3 - 30px);
+     margin-left: 30px;
 }
 /*-----WORK END-----*/
 
@@ -201,6 +245,7 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    text-align: center;
 }
 .team-item-title{
     font-weight: 500;
