@@ -212,6 +212,7 @@ body {
 /*-----FEATURES-----*/
 .features {
 width: 1170;
+padding-bottom: 47px;
 
 }
 .feature-title {
@@ -244,7 +245,9 @@ width: 1170;
 /*-----FEATURES END-----*/
 
 /*-----WORK-----*/
-
+.work{
+    padding-top: 47px;
+}
 .work-title {
     /*display: flex;*/
     color: var(--primary-text-color);
@@ -323,11 +326,11 @@ width: 1170;
 
 /*-----FOOTER-----*/
 
-.footer-conteiner {
+.footer {
  background-color: var(--secondary-bg-color);
  padding-top: 60px;
  padding-bottom: 60px;
- padding-left: 93px;
+ 
 }
 .footer-logo {
     display: flex;
@@ -348,7 +351,7 @@ width: 1170;
 }
 .adres {
     font-style: normal;
-    padding-bottom: 60px;
+
 }
 .adres-item,
 .adres-contact {
@@ -401,9 +404,7 @@ margin-right: 8px;
     cursor: pointer;
     border: none;
     font-family: inherit;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+   
     border-radius: 4px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -416,6 +417,9 @@ margin-right: 8px;
 .project-btn:focus {
     color: var(--color-title);
     background-color: var(--accent-color);
+     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08),
+     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project-img-list{
     display: flex;
